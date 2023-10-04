@@ -26,7 +26,7 @@ const getUserInput = function() {
 }
 
 // Create grid from user input with flex: start with 4x4 grid
-const createGrid = function(numRows = 16, numColumns = 16) {
+const createGrid = function(numRows, numColumns) {
     const doc = new DocumentFragment();
     doc.appendChild(redrawDiv); // add redraw button to document fragment
 
