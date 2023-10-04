@@ -17,4 +17,8 @@ body {
 .grid-row {
     border: 1px solid black;
     flex: 1;
+    transition: background-color 0.5s ease-in-out;
 }
+/* .grid-row:hover {
+    background-color: yellow;
+} */
