@@ -1,0 +1,20 @@
+body {
+    margin-left: 2vw;
+}
+.redraw-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    width: 100vw;
+}
+.grid-col {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 4vh;
+}
+.grid-row {
+    border: 1px solid black;
+    flex: 1;
+}
